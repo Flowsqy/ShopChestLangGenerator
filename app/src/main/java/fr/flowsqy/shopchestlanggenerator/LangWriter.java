@@ -9,6 +9,7 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.util.Map;
 
 public class LangWriter {
@@ -22,7 +23,7 @@ public class LangWriter {
     public void write(@NotNull JsonObject object, @NotNull File outputFile) {
         final BufferedWriter writer;
         try {
-            writer = new BufferedWriter(new FileWriter(outputFile));
+            writer = new BufferedWriter(new FileWriter(outputFile, StandardCharsets.UTF_8));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
