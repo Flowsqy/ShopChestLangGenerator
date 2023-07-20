@@ -28,7 +28,7 @@ This can be done once. Doing it each time ensure you to have the latest version 
 1. Clone the repository to your computer.
 2. Go inside the project folder
 (where ShopChestLangGenerator project files are located)
-3. Open a command prompt. Then type `gradlew assembleDist` on Windows or `./grawdlew assembleDist` on Linux and macOS
+3. Open a command prompt. Then type `gradlew assembleDist` on Windows or `./gradlew assembleDist` on Linux and macOS
 4. Go to the `app/build/distributions` folder
 5. Decompress the archive of your choice, either the tar or the zip one, it does not matter and move the `app` folder into your working directory
 
