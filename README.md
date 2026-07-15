@@ -61,6 +61,5 @@ Then, follow the error instructions or open an issue on GitHub.
 
 ### Quick video instructions
 
-If reading is hard for you, you can watch this video that shows how to do the direct method.
-You can watch this [video](https://youtu.be/DYMR4fMmgnM)
+If reading is hard for you, you can watch this [video](https://youtu.be/DYMR4fMmgnM) that shows how to do the direct method.
 
